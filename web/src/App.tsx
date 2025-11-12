@@ -1,11 +1,16 @@
+import { Features } from "./components/Features";
+import { Footer } from "./components/Footer";
+import { Hero } from "./components/Hero";
+import { HowItWorks } from "./components/HowItworks";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <div></div>
-    </>
+    <div className="w-full min-h-screen bg-white">
+      <Hero />
+      <Features />
+      <HowItWorks />
+      <Footer />
+    </div>
   );
 }
-
-export default App;
