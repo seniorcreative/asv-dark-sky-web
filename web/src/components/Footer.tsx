@@ -1,4 +1,4 @@
-import { Mail, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 export function Footer() {
   return (
